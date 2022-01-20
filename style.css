@@ -1,0 +1,49 @@
+/* general */
+h1{font-size:50px; font-weight:100; padding:10px 25px;}
+*{font-family: 'Arimo', sans-serif; margin:0; box-sizing: border-box;}
+.clearfix{clear:both; }
+
+/* title */
+#title-wrapper{display: grid; grid-template-columns: 25% 15% 10% 10% 25% 15%;}
+#title-wrapper div{font-weight:bold; font-size:20px; padding:25px; border-top:solid 1px #5A6981; border-right:solid 1px #5A6981;}
+.col-title{font-size:20px; font-weight:bold;}
+.col-title .PM{font-size:15px; font-weight:normal;}
+	/* arrows */
+	#title-wrapper div .arrows-both{float:right;}
+	#title-wrapper div .arrow-desc, #title-wrapper div .arrow-asce{display: none; float:right; height:30px;}
+	#title-wrapper .asce .arrow-asce, #title-wrapper .desc .arrow-desc{display: block;}
+	#title-wrapper .desc .arrows-both, #title-wrapper .asce .arrows-both{display: none;} 
+
+
+/* grid */
+#col-wrapper{border-right: none; border-left: none; border-bottom: solid 1px #5A6981; color:#5A6981; display: grid; grid-template-columns: 25% 15% 10% 10% 25% 15%; position: relative;}
+
+.col{padding:25px; border-top:solid 1px #5A6981; border-right:solid 1px #5A6981; float: left; background-color:#B0BCC7; color:black; height:100px;}
+	.col.col-title{left:0%; width:25%;}
+	.col.col-primary{left:25%; width:15%;}
+	.col.col-number{left:40%; width:10%;}
+	.col.col-data{left:50%; width:10%;}
+	.col.col-message{left:60%; width:25%;}
+	.col.col-ranking{left:85%; width:15%;}
+
+
+	.col-number span{font-size:15px; font-size:10px; color:red; padding-left:10px;}
+	.col-ranking span{font-size:15px; font-size:10px; padding-left:10px;}
+	.col-ranking span.green, .col-number span.green{color:green; }
+	.col-ranking span.red, .col-number span.red{color:red;}
+
+	/* individual columns */
+	.col.order-0, .col.order-1, .col.order-2, .col.order-3, .col.order-4, .col.order-5, .col.order-6, .col.order-7, .col.order-8, .col.order-9, .col.order-10, .col.order-11, .col.order-12{position: absolute;}
+
+	.col.order-0{top:0;}		
+	.col.order-1{top:100px;}
+	.col.order-2{top:200px;}
+	.col.order-3{top:300px;}
+	.col.order-4{top:400px;}
+	.col.order-5{top:500px;}
+	.col.order-6{top:600px;}
+	.col.order-7{top:700px;}
+	.col.order-8{top:800px;}
+	.col.order-9{top:900px;}
+	.col.order-10{top:1000px;}
+	
