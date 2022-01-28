@@ -4,4 +4,4 @@ We were needing to build something similar for a project at work so I was assign
 languages: JS, HTML, CSS
 
 
-working example: https://codepen.io/broadhead_lisa/pen/aamQdv
+working example: https://lisabroadhead.github.io/sorter/
