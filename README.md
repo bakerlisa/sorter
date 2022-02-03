@@ -1,5 +1,5 @@
 # Sorter
-We were needing to build something similar for a project at work so I was assigned to build a preliminary sorte
+Stored data, then sorted the rows based on the row that was selected. Clicking the same column will toggle bettwn asc and desc
 
 languages: JS, HTML, CSS
 
